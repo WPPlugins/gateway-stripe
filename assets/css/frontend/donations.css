@@ -1,0 +1,56 @@
+.stripe-donation-form .field-container{
+	width: 50%;
+	float: left;
+}
+.stripe-donation-form .field-container input,
+.stripe-donation-form .field-container select {
+	width: 90%;
+	max-width: 300px;
+	height: 35px;
+}
+#stripe_gateway_card_container{
+	clear: both;
+}
+.stripe-donation-form .donation-submit{
+	margin: 10px 0px;
+}
+.stripe-donation-form span.stripe-card-icon{
+	max-width: 30px;
+	margin-right: 5px;
+	display: inline-block !important;
+}
+.stripe-donation-form span.stripe-card-icon img{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.stripe-donation-form .donation-fields{
+	overflow: hidden;
+}
+.stripe-donation-form .stripe-payment-container{
+	margin: 10px 0px;
+}
+.stripe-donation-form ul.donation-error-ul{
+	border-width: 1px 1px 1px 4px;
+    border-color: #b85f56;
+    padding: 5px 10px;
+    background: #fff;
+    border-style: solid;
+}
+.stripe-donation-form ul.donation-error-ul li{
+	list-style: none;
+	font-weight: 600;
+	margin: 0px 5px;
+}
+.stripe-donation-form div.donation-success{
+	border-width: 1px 1px 1px 4px;
+    border-color: #85e2af;
+    padding: 5px 10px;
+    background: #fff;
+    border-style: solid;
+}
+@media(max-width: 475px){
+	.stripe-donation-form .field-container{
+		width: 100%;
+	}
+}
